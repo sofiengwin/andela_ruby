@@ -12,15 +12,20 @@ While getting these tests to pass, please make sure you try to do the absolute m
   gem install rspec
   ```
 
-2. git clone this repo.
-3. cd into the directory.
-4. in your terminal, type:
+2. git clone this repo by typing this into terminal (assuming you have git commands setup):
+
+  ```Bash
+  git clone git@github.com:andela/rspec_testing_tutorial.git
+  ```
+
+3. cd into the directory that was cloned.
+4. In your terminal, run your spec (test) file by typing:
 
   ```Bash
   rspec numbers_spec.rb
   ```
 
-5. Fix failing or erroring out tests. Let's start with the first one.
+5. In terminal, you'll see some errors. Fix failing or erroring out tests. Let's start with the first one.
 
   We should see this error message:
 
